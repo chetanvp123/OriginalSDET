@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test thread-count="3" name="testRunner-1(failed)" parallel="tests">
+    <classes>
+      <class name="com.comcastSDETTest.CreateContactTest">
+        <methods>
+          <include name="bSMethod"/>
+          <include name="aMethod"/>
+          <include name="bClassMethod"/>
+          <include name="bMethod"/>
+          <include name="multipleTest"/>
+          <include name="aClass"/>
+          <include name="createContact"/>
+          <include name="aSuite"/>
+        </methods>
+      </class> <!-- com.comcastSDETTest.CreateContactTest -->
+      <class name="com.comcastSDETTest.CreateOrganizationTest">
+        <methods>
+          <include name="createOrgTypeIndustry"/>
+          <include name="bSMethod"/>
+          <include name="aMethod"/>
+          <include name="bClassMethod"/>
+          <include name="TestCase"/>
+          <include name="bMethod"/>
+          <include name="aClass"/>
+          <include name="aSuite"/>
+        </methods>
+      </class> <!-- com.comcastSDETTest.CreateOrganizationTest -->
+    </classes>
+  </test> <!-- testRunner-1(failed) -->
+  <test thread-count="3" name="testRunner-2(failed)" parallel="tests">
+    <classes>
+      <class name="com.comcastSDETTest.CreateContactTest">
+        <methods>
+          <include name="bSMethod"/>
+          <include name="aMethod"/>
+          <include name="bClassMethod"/>
+          <include name="bMethod"/>
+          <include name="multipleTest"/>
+          <include name="aClass"/>
+          <include name="createContact"/>
+          <include name="aSuite"/>
+        </methods>
+      </class> <!-- com.comcastSDETTest.CreateContactTest -->
+      <class name="com.comcastSDETTest.CreateOrganizationTest">
+        <methods>
+          <include name="createOrgTypeIndustry"/>
+          <include name="bSMethod"/>
+          <include name="aMethod"/>
+          <include name="bClassMethod"/>
+          <include name="TestCase"/>
+          <include name="bMethod"/>
+          <include name="aClass"/>
+          <include name="aSuite"/>
+        </methods>
+      </class> <!-- com.comcastSDETTest.CreateOrganizationTest -->
+    </classes>
+  </test> <!-- testRunner-2(failed) -->
+</suite> <!-- Failed suite [Suite] -->
